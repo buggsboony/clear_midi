@@ -1,0 +1,26 @@
+MidiFile(type=0, ticks_per_beat=19200, tracks=[
+  MidiTrack([
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 104), time=0),
+    Message('note_on', channel=0, note=60, velocity=56, time=9600),
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 105), time=0),
+    Message('note_off', channel=0, note=60, velocity=64, time=9600),
+
+
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 106), time=0),
+    Message('note_on', channel=0, note=72, velocity=56, time=0),
+    Message('control_change', channel=0, control=64, value=0, time=950),
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 108), time=0),
+    Message('note_off', channel=0, note=72, velocity=64, time=8650),
+    
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 109), time=0),
+    Message('note_on', channel=0, note=64, velocity=127, time=9600),
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 110), time=0),
+    Message('note_off', channel=0, note=64, velocity=64, time=38400),
+    
+    
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 111), time=0),
+    Message('note_on', channel=0, note=64, velocity=127, time=19200),
+    MetaMessage('sequencer_specific', data=(153, 1, 130, 138, 112), time=0),
+    Message('note_off', channel=0, note=64, velocity=64, time=115200),
+    MetaMessage('end_of_track', time=0)])
+])
